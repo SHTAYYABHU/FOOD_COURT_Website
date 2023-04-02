@@ -1,0 +1,760 @@
+<DOCTYPE html>
+	<html>
+	<head>
+		<title>Deal</title>
+		<script>
+		var total=0;
+		var bill=0;
+		
+		var count1 = 0;
+		var count2 = 0;
+		var count3 = 0;
+		var count4 = 0;
+		var count5 = 0;
+		var count6 = 0;
+		var count7 = 0;
+		var count8 = 0;
+		var count9 = 0;
+
+
+		function deal1C()
+		{
+		total = total + 380;
+		document.getElementById("ans").innerHTML = total;
+		count1 ++;
+		if(count1 >= 1)
+		{
+	    document.getElementById("d1n").style.display = "block";
+		document.getElementById("form_hidden").style.display="block";
+		document.getElementById("r11").style.display="block";
+		if (total != bill)
+		{
+document.getElementById("but").style.display = "block";
+document.getElementById("but2").style.display = "block";
+}
+	}
+	}
+		function deal1R()
+	{	if(total == 0){}else{
+		total = total - 380;
+		count1 --;
+		if (total == bill)
+		{
+document.getElementById("but").style.display = "none";
+document.getElementById("but2").style.display = "none";
+}
+		document.getElementById("ans").innerHTML=total;
+		if(total == 0 )
+		{
+		document.getElementById("d1n").style.display = "none";
+		document.getElementById("form_hidden").style.display="none";
+
+		
+	}
+	}
+		}
+		function deal2C()
+	{
+		total = total + 350;
+	    document.getElementById("ans").innerHTML = total;
+		count2 ++;
+		if (total != bill)
+		{
+document.getElementById("but").style.display = "block";
+document.getElementById("but2").style.display = "block";
+}
+		if(count2 >= 1){
+		document.getElementById("d2n").style.display = "block";
+		document.getElementById("form_hidden").style.display="block";
+	}}
+	
+		function deal2R()
+	{if(total == 0){}else{
+		total = total - 350;
+		document.getElementById("ans").innerHTML = total;
+		count2 --;
+		if (total == bill)
+		{
+document.getElementById("but").style.display = "none";
+document.getElementById("but2").style.display = "none";
+}
+		if(total == 0 )
+		{
+	    document.getElementById("d2n").style.display = "none";
+		document.getElementById("form_hidden").style.display="none";
+	}}}
+	
+		function deal3C()
+	{
+		total = total +420;
+		document.getElementById("ans").innerHTML = total;
+		count3 ++;
+		if (total != bill)
+		{
+document.getElementById("but").style.display = "block";
+document.getElementById("but2").style.display = "block";
+}
+		if(count3 >= 1)
+		{
+	    document.getElementById("d3n").style.display = "block";
+		document.getElementById("form_hidden").style.display="block";
+	}}
+		function deal3R()
+	{if(total == 0){}else{
+		total = total -420;
+		document.getElementById("ans").innerHTML = total;
+		count3 --;
+		if (total == bill)
+		{
+document.getElementById("but").style.display = "none";
+document.getElementById("but2").style.display = "none";
+}
+		if(count3 == 0 )
+		{
+	    document.getElementById("d3n").style.display = "none";
+		document.getElementById("form_hidden").style.display="none";
+	}}}
+		
+		function deal4C()
+	{
+		total = total +700;
+		document.getElementById("ans").innerHTML = total;
+		count4 ++;
+		if (total != bill)
+		{
+document.getElementById("but").style.display = "block";
+document.getElementById("but2").style.display = "block";
+}
+		if(count4 >= 1)
+		{
+	    document.getElementById("d4n").style.display = "block";
+		document.getElementById("form_hidden").style.display="block";
+		}
+	}	
+		function deal4R()
+	{if(total == 0){}else{
+		total = total -700;
+		document.getElementById("ans").innerHTML = total;
+		count4 --;
+		if (total == bill)
+		{
+document.getElementById("but").style.display = "none";
+document.getElementById("but2").style.display = "none";
+}
+		if(count4 == 0 )
+		{
+	    document.getElementById("d4n").style.display = "none";
+		document.getElementById("form_hidden").style.display="none";
+		}
+	}}
+	function deal5C()
+	{
+		total = total +450;
+		document.getElementById("ans").innerHTML = total;
+		count5 ++;
+		if (total != bill)
+		{
+document.getElementById("but").style.display = "block";
+document.getElementById("but2").style.display = "block";
+}
+		if(count5 >= 1)
+		{
+	    document.getElementById("d5n").style.display = "block";
+		document.getElementById("form_hidden").style.display="block";
+		}
+		}	
+		function deal5R()
+	{if(total == 0){}else{
+		total = total -450;
+		document.getElementById("ans").innerHTML = total;
+		count5 --;
+		if (total == bill)
+		{
+document.getElementById("but").style.display = "none";
+document.getElementById("but2").style.display = "none";
+}
+		if(count5 == 0 )
+		{
+	    document.getElementById("d5n").style.display = "none";
+		document.getElementById("form_hidden").style.display="none";
+		
+	}}}
+	function deal6C()
+	{
+		total = total +650;
+		document.getElementById("ans").innerHTML = total;
+		count6 ++;
+		if (total != bill)
+		{
+document.getElementById("but").style.display = "block";
+document.getElementById("but2").style.display = "block";
+}
+		if(count6 >= 1)
+		{
+	    document.getElementById("d6n").style.display = "block";
+		document.getElementById("form_hidden").style.display="block";
+		}
+	}	
+		function deal6R()
+	{if(total == 0){}else{
+		total = total -650;
+		document.getElementById("ans").innerHTML = total;
+		count6 --;
+		if (total == bill)
+		{
+document.getElementById("but").style.display = "none";
+document.getElementById("but2").style.display = "none";
+}
+		if(count6 == 0 )
+		{
+	    document.getElementById("d6n").style.display = "none";
+		document.getElementById("form_hidden").style.display="none";
+		}
+	}}
+	function deal7C()
+	{
+		total = total +1650;
+		document.getElementById("ans").innerHTML = total;
+		count7 ++;
+		if (total != bill)
+		{
+document.getElementById("but").style.display = "block";
+document.getElementById("but2").style.display = "block";
+}
+		if(count7 >= 1){
+	    document.getElementById("d7n").style.display = "block";
+		document.getElementById("form_hidden").style.display="block";
+		}
+	}	
+		function deal7R()
+	{if(total == 0){}else{
+		total = total -1650;
+		document.getElementById("ans").innerHTML = total;
+		count7 --;
+		if (total == bill)
+		{
+document.getElementById("but").style.display = "none";
+document.getElementById("but2").style.display = "none";
+}
+		if(count7 == 0 )
+		{
+	    document.getElementById("d7n").style.display = "none";
+		document.getElementById("form_hidden").style.display="none";
+		}
+	}}
+	
+		function deal8C()
+	{
+		total = total +1340;
+		document.getElementById("ans").innerHTML = total;
+		count8 ++;
+		if (total != bill)
+		{
+document.getElementById("but").style.display = "block";
+document.getElementById("but2").style.display = "block";
+}
+		if(count8 >= 1)
+		{
+	    document.getElementById("d8n").style.display = "block";
+		document.getElementById("form_hidden").style.display="block";
+		
+	}	}
+		function deal8R()
+	{if(total == 0){}else{
+		total = total -1340;
+		document.getElementById("ans").innerHTML = total;
+		count8 --;
+		if (total == bill)
+		{
+document.getElementById("but").style.display = "none";
+document.getElementById("but2").style.display = "none";
+}
+		if(count8 == 0 )
+		{
+	    document.getElementById("d8n").style.display = "none";
+		document.getElementById("form_hidden").style.display="none";
+		}
+	}
+	}
+	    function deal9C()
+	{
+		total = total +1900;
+		document.getElementById("ans").innerHTML = total;
+		count9 ++;
+		if (total != bill)
+		{
+document.getElementById("but").style.display = "block";
+document.getElementById("but2").style.display = "block";
+}
+		if(count9 >= 1)
+		{
+	    document.getElementById("d9n").style.display = "block";
+		document.getElementById("form_hidden").style.display="block";
+		
+	}	}
+		function deal9R()
+	{if(total == 0){
+	}
+	else{
+		total = total -1900;
+		document.getElementById("ans").innerHTML = total;
+		count9 --;
+		if (total == bill)
+		{
+document.getElementById("but").style.display = "none";
+document.getElementById("but2").style.display = "none";
+}
+		if(count9 == 0 )
+		{
+	    document.getElementById("d9n").style.display = "none";
+		document.getElementById("form_hidden").style.display="none";
+		}
+	}}
+		function java1()
+	{
+		var no=0;
+		if(no<0)
+		{
+			window.alert("Please");
+		}
+	}
+	
+	    function reload() 
+	{
+		reload = location.reload();
+	}
+	reloadButton.addEventListener("click", reload, false);
+	</script>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<nav id="header">
+			<a href="index1.html"><img src="logo1.jpeg" alt="pic" height="80" width="500"></a>
+			&nbsp;
+			<ul>
+			<li><a href="index1.html">HomePage</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="privicy.html">Privacy & Policy</a></li>
+			</ul>
+		</nav>
+		<center>
+		<p style="color:c0c7dd; font-size:80px; text-align: center;">Your Total Cart  Bill Is :<span id ="ans">0</span></p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		    <div id="form_hidden" style="display: none;">
+		    <center>
+			<form action="final.html">
+			<label style="color: #f89921;">Enter Receiver Name:</label>
+			<br>
+			<br>
+			<input required type="text" placeholder="Receiver Name" style="text-align: center;" id="user">
+			<br>
+			<br>
+			<label style="color: #f89921;">Enter Mobile Number:</label>
+			<br>
+			<br>
+			<input required type="number" placeholder="Mobile Number" style="text-align: center;" id="user">
+			<br>
+			<br>
+			<label style="color: #f89921;">Enter Email:</label>
+			<br>
+			<br>
+			<input type="email" placeholder="Email" style="text-align: center;" id="Email">
+			<br>
+			<br>
+			<label style="color: #f89921;">Complete Address:</label>
+			<br>
+			<br>
+			<input required type="suggestion" placeholder="Address" style="text-align: center;" id="Suggestion"><br>
+			<br>
+			<br>
+			<label style="color: #f89921;">Order Note(Optional):</label>
+			<br>
+			<br>
+			<input type="suggestion" placeholder="Order Note" style="text-align: center;" id="Suggestion">
+			<br>
+			<br>
+			<label style="color: #f89921;">How Would Like To Pay:</label>
+			<br>
+			<br>
+			<label style="color: #c0c7dd;">Credit Card</label>
+			<input required type="radio" id="rd1" name="gender" onclick="payment()">
+			<label style="color: #c0c7dd;">Cash On Delivery</label>
+			<input required type="radio" id="rd1" name="gender" onclick="paym()">
+			<br>
+			<br>
+			<br>
+			<br>
+			<input style="font-weight: bold;" type="submit" name="submit button" value="Place Order" id="but2">
+			</form>
+			<br>
+			<h2 style="color: #f89921">Order Information Will Lost If Go Home</h2>
+			<br>
+			<form action="index1.html">
+			<button style="font-weight: bold;" id="but">Go To Home</button>
+			</form>
+			</center>
+		    </div>
+		<table class="center">
+			<tr>
+			<td>
+			<div class="container1">
+			<div class="card">
+			<img src="d1.png" alt="Card Back" width="350" height="350">
+			<img src="d1c.png" class="img-top" alt="Card Front" width="350" height="350">
+			</div>
+			</div>
+	
+<br>
+<br>
+			<center>
+			<div>
+			<h2 id="d1n" style="display:none;"><span style="color:#c0c7dd;">YOUR HAVE SELECTED</span> <span style="color:#f89921;">CHICK CLUB</span></h2>
+			</br>
+			<br>
+			<h3 style="color: #c0c7dd;">Choose Your Coldrink</h3>
+			<br>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			
+			</div>
+			</center>
+		    <br>
+			<br>
+			<center>
+			<button style="font-weight: bold;" onclick="deal1C()" ondblclick="del1c()" id="but">Add To cart</button>
+			<button style="font-weight: bold; display:none;" onclick="deal1R()" id="r11" class="text"> Remove</button>
+			</center>
+			</td>
+			<br>
+			<td>
+			<div class="container1">
+			<div class="card">
+			<img src="D2.png" alt="Card Back" width="350" height="350">
+			<img src="d2c.png" class="img-top" alt="Card Front" width="350" height="350">
+			</div>
+			</div>
+			
+<br>
+<br>
+			<center>
+			<div>
+			<h2 id="d2n" style="display:none;"><span style="color:#c0c7dd;" >YOUR HAVE SELECTED</span> <span style="color:#f89921;"> SELF ENJOY</span></h2>
+			</br>
+			<br>
+			<h3 style="color: #c0c7dd;">Choose Your Coldrink</h3>
+			<br>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+		    </div>
+			</center>
+			<br>
+			<br>
+			<center>
+			<button style="font-weight: bold;" onclick="deal2C()" id="but">Add To cart</button>
+			<button style="font-weight: bold;" onclick="deal2R()" class="text">Remove</button>
+			</center>
+			</td>
+			<br>
+			<td>
+			<div class="container1">
+			<div class="card">
+			<img src="D3.png" alt="Card Back" width="350" height="350">
+			<img src="d3c.png" class="img-top" alt="Card Front" width="350" height="350">
+			</div>
+			</div>
+			
+<br>
+<br>
+			<center>
+			<div>
+			<h2 id="d3n" style="display:none;"><span style="color:#c0c7dd;" >YOUR HAVE SELECTED</span>  <span style="color:#f89921;" >PIZZA LOVER</span></h2>
+			</br>
+			<br>
+			<h3 style="color: #c0c7dd;">Choose Your Coldrink</h3>
+			<br>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			
+			</div>
+			</center>
+			<br>
+			<br>
+			<center>
+			<button style="font-weight: bold;" onclick="deal3C()" id="but">Add To cart</button>
+			<button style="font-weight: bold;" onclick="deal3R()" class="text">Remove</button>
+			</center>
+			</tr>
+			<br>
+			<td>
+			<div class="container1">
+			<div class="card">
+			<img src="D4.png" alt="Card Back" width="350" height="350">
+			<img src="d4c.png" class="img-top" alt="Card Front" width="350" height="350">
+			</div>
+			</div>
+		
+<br>
+<br>
+			<center>
+			<div>
+			<h2 id="d4n" style="display:none;"><span style="color: #c0c7dd;">YOUR HAVE SELECTED</span> <span style="color: #f89921;">TWO BY TWO</span></h2>
+			</br>
+			<br>
+			<h3 style="color: #c0c7dd;">Choose Your Milkshake</h3>
+			<br>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">VANILLA</option>
+			<option style="background-color:#c0c7dd;">NUTELLA</option>
+			<option style="background-color:#c0c7dd;">OREO</option>
+			<option style="background-color:#c0c7dd;">MANGO</option>
+			</select>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">Vanilla</option>
+			<option style="background-color:#c0c7dd;">Nutella</option>
+			<option style="background-color:#c0c7dd;">OREO</option>
+			<option style="background-color:#c0c7dd;">MANGO</option>
+			</select>
+			</div>
+			</center>
+			<br>
+			<br>
+			<center>
+			<button style="font-weight: bold;" onclick="deal4C()" id="but">Add To cart</button>
+			<button style="font-weight: bold;" onclick="deal4R()" class="text">Remove</button>
+			</center>
+			</td>
+			<br>
+			<td>
+			<div class="container1">
+			<div class="card">
+			<img src="D5.png" alt="Card Back" width="350" height="350">
+			<img src="d5c.png" class="img-top" alt="Card Front" width="350" height="350">
+			</div>
+			</div>
+			
+<br>
+<br>
+			<center>
+			<div>
+			<h2 id="d5n" style="display:none;"><span style="color: #c0c7dd;">YOUR HAVE SELECTED</span> <span style="color: #f89921;">CHICK-A ZINGER</span></h2>
+			</br>
+			<br>
+			<h3 style="color: #c0c7dd;">Choose Your Coldrink</h3>
+			<br>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			</div>
+			</center>
+			<br>
+			<br>
+			<center>
+			<button style="font-weight: bold;" onclick="deal5C()" id="but">Add To cart</button>
+			<button style="font-weight: bold;" onclick="deal5R()" class="text">Remove</button>
+			</center>
+			</td>
+			<br>
+			<td>
+			<div class="container1">
+			<div class="card">
+			<img src="D6.png" alt="Card Back" width="350" height="350">
+			<img src="d6c.png" class="img-top" alt="Card Front" width="350" height="350">
+			</div>
+			</div>
+			
+<br>
+<br>
+			<center>
+			<div>
+			<h2 id="d6n" style="display:none;"><span style="color: #c0c7dd;">YOUR HAVE SELECTED</span> <span style="color: #f89921;">BEENGER</span></h2>
+			</br>
+			<br>
+			<h3 style="color: #c0c7dd;">Choose Your Coldrink</h3>
+			<br>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			<select style="background-color:f89921; border-radius:25px;">
+			<option style="background-color:c0c7dd;">RANDOM</option>
+			<option style="background-color:c0c7dd;">PEPSI</option>
+			<option style="background-color:c0c7dd;">COKE</option>
+			<option style="background-color:c0c7dd;">7UP</option>
+			<option style="background-color:c0c7dd;">DEW</option>
+			</select>
+			</div>
+			</center>
+			<br>
+			<br>
+			<center>
+			<button style="font-weight: bold;" onclick="deal6C()" id="but">Add To cart</button>
+			<button style="font-weight: bold;" onclick="deal6R()" class="text">Remove</button>
+			</center>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<div class="container1">
+			<div class="card">
+			<img src="D7.png" alt="Card Back" width="350" height="350">
+			<img src="d7c.png" class="img-top" alt="Card Front" width="350" height="350">
+			</div>
+			</div>
+			
+<br>
+<br>
+			<center>
+			<div>
+			<h2 id="d7n" style="display:none;"><span style="color: #c0c7dd;">YOUR HAVE SELECTED <span style="color: #f89921;">SUPER DHAMAKA</span></h2>
+			</br>
+			<br>
+			<h3 style="color: #c0c7dd;">Choose Your Coldrink</h3>
+			<br>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			<select style="background-color:f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			</div>
+			</center>
+			<br>
+			<br>
+			<center>
+			<button style="font-weight: bold;" onclick="deal7C()" id="but">Add To cart</button>
+			<button style="font-weight: bold;" onclick="deal7R()" class="text">Remove</button>
+			</center>
+			</td>
+			<br>
+			<td>
+			<div class="container1">
+			<div class="card">
+			<img src="D8.png" alt="Card Back" width="350" height="350">
+			<img src="d8c.png" class="img-top" alt="Card Front" width="350" height="350">
+			</div>
+			</div>
+			
+<br>
+<br>
+			<center>
+			<div>
+			<h2 id="d8n" style="display:none;"><span style="color: #c0c7dd;">YOUR HAVE SELECTED</span> <span style="color: #f89921;">MIGHTY BEEF</span></h2>
+			</br>
+			<br>
+			<h3 style="color: #c0c7dd;">Choose Your Coldrink</h3>
+			<br>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			</div>
+			</center>
+<br>
+<br>
+			</br>
+			<center>
+			<button style="font-weight: bold;" onclick="deal8C()" id="but">Add To cart</button>
+			<button style="font-weight: bold;" onclick="deal8R()" class="text">Remove</button>
+			</center>
+			</td>
+			<br>
+			<td>
+			<div class="container1">
+			<div class="card">
+			<img src="D9.png" alt="Card Back" width="350" height="350">
+			<img src="d9c.png" class="img-top" alt="Card Front" width="350" height="350">
+			</div>
+			</div>
+			
+<br>
+<br>
+			<center>
+			<div>
+			<br>
+			<h2 id="d9n" style="display:none;"><span style="color: #c0c7dd;">YOUR HAVE SELECTED</span> <span style="color: #f89921;">TRIPLE III</span></h2>
+			</br>
+			<br>
+			<h3 style="color: #c0c7dd;">Choose Your Coldrink</h3>	
+			<br>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			<select  style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			<select style="background-color:#f89921; border-radius:25px;">
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">RANDOM</option>
+			<option style="background-color:#c0c7dd;">PEPSI</option>
+			<option style="background-color:#c0c7dd;">COKE</option>
+			<option style="background-color:#c0c7dd;">7UP</option>
+			<option style="background-color:#c0c7dd;">DEW</option>
+			</select>
+			</div>
+			</center>
+			<br>
+			<br>
+			<center>
+			<button style="font-weight: bold;" onclick="deal9C()" id="but">Add To cart</button>
+			<button style="font-weight: bold;" onclick="deal9R()" class="text">Remove</button>
+			</center>
+			</td>
+			</tr>	
+		</table>
+		</center>
+	</body>
+	</html>
